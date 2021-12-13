@@ -18,9 +18,9 @@ export default function Todo() {
 
     return (
         <div>
-        <NewTask handleSubmit={handleSubmit} handleChange={handleChange} task={task}/>
-        <button onClick={handleClear} >Clear</button>
-        <List tasks={tasks} />
+            <NewTask handleSubmit={handleSubmit} handleChange={handleChange} task={task}/>
+            <button onClick={handleClear} >Clear</button>
+            <List tasks={tasks} />
         </div>
     )
 }
